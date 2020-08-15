@@ -2,9 +2,10 @@ import 'package:Myapp/About.dart';
 import 'package:Myapp/Groups.dart';
 import 'package:Myapp/Members.dart';
 
-import 'package:Myapp/Projects.dart';
+import 'package:Myapp/Projectsdemo.dart';
 
 import 'package:Myapp/events.dart';
+import 'package:Myapp/projects.dart';
 import 'Demo1.dart';
 import 'Groups.dart';
 
@@ -14,6 +15,7 @@ import 'package:flutter/material.dart';
 
 import 'package:google_fonts/google_fonts.dart';
 
+import 'Projectsdemo.dart';
 import 'Test.dart';
 
 List<String> l1 = ['Members', 'Events', 'Projects', 'Groups', 'About'];
@@ -71,7 +73,7 @@ class Griddashboard1 extends StatelessWidget {
                         Navigator.push(
                           context,
                           CupertinoPageRoute(
-                            builder: (context) => Projectdemo(),
+                            builder: (context) => Project(),
                           ),
                         );
                       }
